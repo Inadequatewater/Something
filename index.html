@@ -27,14 +27,18 @@
         li {
             margin: 10px;
         }
-        a {
-            text-decoration: none;
+        button {
             font-size: 20px;
-            color: #0073e6;
-            transition: color 0.3s ease;
+            padding: 10px 20px;
+            color: white;
+            background-color: #0073e6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
-        a:hover {
-            color: #005bb5;
+        button:hover {
+            background-color: #005bb5;
         }
     </style>
 </head>
@@ -42,11 +46,12 @@
     <div class="container">
         <h1>Connect with Me</h1>
         <ul>
-            <li><a href="https://www.youtube.com/@DeathSavage0612" target="_blank">Main Channel</a></li>
-            <li><a href="https://www.youtube.com/@Mineimatestudios" target="_blank">2nd Channel</a></li>
-            <li><a href="https://www.tiktok.com/@deathsavage06120" target="_blank">TikTok</a></li>
-            <!-- Add more links as necessary -->
+            <li><button onclick="window.open('https://www.youtube.com/@DeathSavage0612', '_blank')">Main Channel</button></li>
+            <li><button onclick="window.open('https://www.youtube.com/@Mineimatestudios', '_blank')">2nd Channel</button></li>
+            <li><button onclick="window.open('https://www.tiktok.com/@deathsavage06120', '_blank')">TikTok</button></li>
+            <!-- Add more buttons as necessary -->
         </ul>
     </div>
 </body>
 </html>
+
